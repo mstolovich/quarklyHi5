@@ -27,7 +27,7 @@ export default {
 			"pageUrl": "index",
 			"seo": {
 				"title": "Hi5 | Grow a happier more productive company culture",
-				"favicon_32px": "https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo-p-500.png 500w, https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo.png 892w"
+				"favicon_32px": "https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo.png"
 			}
 		},
 		"5f880fe841c25f001ec3dd21": {

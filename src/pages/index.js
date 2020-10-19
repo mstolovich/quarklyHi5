@@ -13,7 +13,7 @@ export default (() => {
 				Hi5 | Grow a happier more productive company culture
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo-p-500.png 500w, https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo.png 892w"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo.png"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
 			position="fixed"
