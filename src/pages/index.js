@@ -576,42 +576,34 @@ our team."
 			</Stack>
 		</Section>
 		<Section
-			background="--color-bgYellow"
-			margin="100px 0 0 0"
+			noutLg-position="relative"
+			noutLg-z-index="10"
 			position="relative"
-			z-index="1"
-			nout-margin="50px 0 0 0"
-			sm-margin="70px 0 0 0"
-			noutLg-margin="80px 0 0 0"
-			sm-height="50px"
+			z-index="10"
+			margin="100px 0 0 0"
 		>
-			<Override
-				slot="SectionContent"
-				width="100%"
-				background="url(https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5ceab5a25abdf6b8e55086d5_1.png) 0/100% "
-				height="60px"
-				opacity="60%"
-				sm-background="url(https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5ceab5a25abdf6b8e55086d5_1.png) 0/100% 100% no-repeat"
-			/>
+			<Override slot="SectionContent" noutLg-width="100%" width="100%" max-width="100%" />
+			<Components.Gallery />
 		</Section>
 		<Section
 			background="--color-bgYellow"
 			transform="skew(0deg,-5deg)"
 			height="40vh"
-			margin="-300px 0 51px 0"
+			margin="-400px 0 51px 0"
 			justify-content="center"
 			align-items="center"
 			position="relative"
 			z-index="0"
-			nout-margin="-240px 0 51px 0"
-			nout-height="50vh"
-			md-margin="-240px 0 51px 0"
-			md-height="300px"
-			sm-margin="-200px 0 51px 0"
+			nout-margin="-350px 0 51px 0"
+			nout-height="400px"
+			md-margin="-340px 0 51px 0"
+			md-height="400px"
+			sm-margin="-320px 0 51px 0"
 			sm-height="300px"
-			noutLg-height="300px"
-			noutLg-margin="-260px 0 51px 0"
-			lg-height="300px"
+			noutLg-height="400px"
+			noutLg-margin="-400px 0 51px 0"
+			lg-height="400px"
+			lg-margin="-350px 0 51px 0"
 		>
 			<Override slot="SectionContent" width="1045px" lg-top="1px" />
 			<Image
