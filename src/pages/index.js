@@ -224,7 +224,7 @@ Team members use a fun app to give feedback and recognition to peers.
 		<Section
 			background="--color-bgYellow"
 			transform="skew(0deg,-5deg)"
-			height="30vh"
+			height="300px"
 			margin="20px 0 51px 0"
 			justify-content="center"
 			align-items="center"
@@ -236,8 +236,9 @@ Team members use a fun app to give feedback and recognition to peers.
 			lg-margin="0px 0 50px 0"
 			md-margin="-30px 0 50px 0"
 			nout-margin="99.9px 0 51px 0"
-			lg-height="35vh"
-			sm-height="25vh"
+			lg-height="200px"
+			sm-height="100px"
+			noutLg-height="200px"
 		>
 			<Override slot="SectionContent" width="1045px" lg-top="1px" />
 		</Section>
@@ -250,7 +251,7 @@ Team members use a fun app to give feedback and recognition to peers.
 			lg-margin="-200px 0 0 0"
 			md-margin="-100px 0 0 0"
 			noutLg-margin="-200px 0 0 0"
-			sm-margin="-50px 0 0 0"
+			sm-margin="-80px 0 0 0"
 		>
 			<Override slot="SectionContent" max-width="1045px" />
 			<Stack flex-direction="column" align-items="center">
@@ -330,7 +331,13 @@ Team members use a fun app to give feedback and recognition to peers.
 					</Box>
 				</StackItem>
 				{"    "}
-				<StackItem width="100%" display="flex" margin="20px 0px 80px 0px" nout-margin="20px 0px 0px 0px">
+				<StackItem
+					width="100%"
+					display="flex"
+					margin="20px 0px 80px 0px"
+					nout-margin="20px 0px 0px 0px"
+					sm-margin="70px 0px 0px 0px"
+				>
 					<Override
 						slot="StackItemContent"
 						max-width="1045px"
@@ -363,6 +370,7 @@ Team members use a fun app to give feedback and recognition to peers.
 							nout-margin="0 0 0 5"
 							md-width="50%"
 							sm-width="100%"
+							lg-width="50%"
 						>
 							{"        "}
 							<Box
@@ -387,6 +395,8 @@ Team members use a fun app to give feedback and recognition to peers.
 									align-items="center"
 									justify-content="center"
 									margin="0 0 21px 0"
+									sm-width="100%"
+									sm-background="url(https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5cee75bc396444195e249d88_Wayne%20Flemming%20BrandTruth.png) 100% 100%/100% 100% repeat-x"
 								>
 									<Icon
 										category="fa"
@@ -416,7 +426,13 @@ Team members use a fun app to give feedback and recognition to peers.
 							</Box>
 							{"    "}
 						</StackItem>
-						<StackItem width="33%" display="flex" md-width="50%" sm-display="none">
+						<StackItem
+							width="33%"
+							display="flex"
+							md-width="50%"
+							sm-display="none"
+							lg-width="50%"
+						>
 							{"        "}
 							<Box
 								width="100%"
@@ -470,7 +486,13 @@ our team."
 							</Box>
 							{"    "}
 						</StackItem>
-						<StackItem width="33%" display="flex" nout-margin="0px 0px 0px 0px" md-display="none">
+						<StackItem
+							width="33%"
+							display="flex"
+							nout-margin="0px 0px 0px 0px"
+							md-display="none"
+							lg-display="none"
+						>
 							{"        "}
 							<Box
 								width="100%"
@@ -479,6 +501,7 @@ our team."
 								align-items="center"
 								justify-content="space-between"
 								nout-margin="0px -15px 0px 0px"
+								lg-display="block"
 							>
 								<Link
 									href="#"
@@ -527,7 +550,7 @@ our team."
 					</Stack>
 					{"            "}
 				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%">
+				<StackItem width="50%" display="flex" sm-width="100%" md-width="70%">
 					<Override slot="StackItemContent" justify-content="center" />
 					<Link
 						href="#"
@@ -544,6 +567,7 @@ our team."
 						hover-background="#faeb51"
 						hover-transform="translate(0,-2px)"
 						md-padding="16px 40px 16px 40px"
+						noutLg-text-align="center"
 					>
 						See all customer ❤️stories
 					</Link>
@@ -557,7 +581,9 @@ our team."
 			position="relative"
 			z-index="1"
 			nout-margin="50px 0 0 0"
-			sm-margin="0px 0 0 0"
+			sm-margin="70px 0 0 0"
+			noutLg-margin="80px 0 0 0"
+			sm-height="50px"
 		>
 			<Override
 				slot="SectionContent"
@@ -565,7 +591,7 @@ our team."
 				background="url(https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5ceab5a25abdf6b8e55086d5_1.png) 0/100% "
 				height="60px"
 				opacity="60%"
-				sm-height="50px"
+				sm-background="url(https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5ceab5a25abdf6b8e55086d5_1.png) 0/100% 100% no-repeat"
 			/>
 		</Section>
 		<Section
@@ -580,9 +606,12 @@ our team."
 			nout-margin="-240px 0 51px 0"
 			nout-height="50vh"
 			md-margin="-240px 0 51px 0"
-			md-height="60vh"
+			md-height="300px"
 			sm-margin="-200px 0 51px 0"
-			sm-height="100vh"
+			sm-height="300px"
+			noutLg-height="300px"
+			noutLg-margin="-260px 0 51px 0"
+			lg-height="300px"
 		>
 			<Override slot="SectionContent" width="1045px" lg-top="1px" />
 			<Image
@@ -880,7 +909,7 @@ our team."
 							hover-transform="translate(0,-2px)"
 							margin="0 0 8px 0"
 						>
-							<Image height="auto" src="https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5ce32310d137dfcf15fffedc_Add%20to%20Slack.svg" max-width="100%" />
+							<Image height="auto" src="https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5ce32310d137dfcf15fffedc_Add%20to%20Slack.svg" max-width="100%" sm-width="178px" />
 						</Link>
 						<Link
 							href="#"
@@ -889,7 +918,7 @@ our team."
 							hover-transform="translate(0,-2px)"
 							margin="0 0 8px 0"
 						>
-							<Image height="auto" src="https://www.getapp.com/ext/reviews_widget/v1/dark/hi5-application" max-width="100%" />
+							<Image height="auto" src="https://www.getapp.com/ext/reviews_widget/v1/dark/hi5-application" max-width="100%" sm-width="178px" />
 						</Link>
 					</Box>
 					{"    "}
