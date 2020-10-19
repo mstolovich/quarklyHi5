@@ -24,7 +24,11 @@ export default {
 		"5f86f0e33d84d4001ec39af1": {
 			"id": "5f86f0e33d84d4001ec39af1",
 			"name": "index",
-			"pageUrl": "index"
+			"pageUrl": "index",
+			"seo": {
+				"title": "Hi5 | Grow a happier more productive company culture",
+				"favicon_32px": "https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo-p-500.png 500w, https://uploads-ssl.webflow.com/5b34885067f597307b210eed/5b8bdfda37ffb3b160a259fb_Logo.png 892w"
+			}
 		},
 		"5f880fe841c25f001ec3dd21": {
 			"id": "5f880fe841c25f001ec3dd21",
